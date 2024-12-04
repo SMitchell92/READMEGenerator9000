@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/SMitchell92/READMEGenerator9000/issues"
   },
-  "homepage": "https://github.com/SMitchell92/READMEGenerator9000#readme"
+  "homepage": "https://github.com/SMitchell92/READMEGenerator9000#readme",
+  "dependencies": {
+    "inquirer": "^12.1.0"
+  }
 }
