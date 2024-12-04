@@ -1,0 +1,24 @@
+{
+  "name": "readmegenerator9000",
+  "version": "1.0.0",
+  "description": "A simple program that prompts users to input details regarding a README for whatever they please, guiding them step-by-step, section-by-section.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SMitchell92/READMEGenerator9000.git"
+  },
+  "keywords": [
+    "README",
+    "generator"
+  ],
+  "author": "Stu Mitchell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SMitchell92/READMEGenerator9000/issues"
+  },
+  "homepage": "https://github.com/SMitchell92/READMEGenerator9000#readme"
+}
