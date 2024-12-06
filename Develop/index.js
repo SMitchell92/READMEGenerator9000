@@ -1,7 +1,7 @@
  // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
 import fs from 'fs';
-import generateMarkdown from './utils/generateMarkdown';
+import generateMarkdown from './utils/generateMarkdown.js';
 // TODO: Create an array of questions for user input
 const questions = [{
     type: "input",
@@ -27,7 +27,7 @@ const questions = [{
     type: "list",
     name: "License",
     message: `What license did you use for your app?`,
-    choices: ["MIT", 'Aache License 2.0', 'GNU General Public License (GPL) v3', 'BSD 3-Clause License', 'Mozilla Public LIcense 2.0', 'No License'],
+    choices: ["MIT", 'Hippocratic License 3.0', 'GNU General Public License (GPL) v3', 'BSD 3-Clause License', 'Mozilla Public LIcense 2.0', 'No License'],
 },
 {
     type: "input",
