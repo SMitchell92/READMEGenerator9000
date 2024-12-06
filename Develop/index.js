@@ -1,4 +1,4 @@
- // TODO: Include packages needed for this application
+// TODO: Include packages needed for this application
 import inquirer from 'inquirer';
 import fs from 'fs';
 import generateMarkdown from './utils/generateMarkdown.js';
@@ -52,7 +52,7 @@ const questions = [{
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, function(err){
+    fs.writeFile(fileName, data, function (err) {
         if (err) {
             console.log("there was an err")
         }
